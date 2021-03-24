@@ -5,6 +5,18 @@
   font-family: "Roboto", sans-serif;
 }
 
+.btn {
+  border-radius: 20px;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+.btn_empty {
+  border: 1px solid white;
+}
+.btn_green {
+  background-color: #7cbc27;
+}
 /* utility rules  */
 
 .container {
@@ -19,21 +31,37 @@
 .bg_blue {
   background-color: #0c325a;
 }
+
+.bg_green {
+  background-color: #7cbc27;
+}
+
+.bg_grey {
+  background-color: #d3d3d3;
+}
+.grey_text {
+  background-color: #808080;
+}
+
 /******************
  Header-CSS 
  *****************/
 header {
   height: 550px;
+  background-image: url("../img/background-header.png");
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
 }
 header a {
-  text-decoration: none;
-  color: white;
-  font-size: 12px;
   text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
 }
 header nav {
   height: 60px;
-  line-height: 100%;
+  line-height: 60px;
 }
 .logo,
 .left_menu,
@@ -45,7 +73,17 @@ header nav {
   width: 15%;
   margin-top: 5px;
 }
+.left_menu {
+  width: 45%;
+}
+.right_menu {
+  width: 40%;
+  text-align: right;
+}
 
+.left_menu a {
+  padding: 5px 15px;
+}
 /******************
  Main-CSS 
  *****************/
