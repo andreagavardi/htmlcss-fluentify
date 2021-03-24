@@ -127,7 +127,6 @@ header nav {
 /* main-columns */
 
 .column {
-  height: 200px;
   float: left;
   width: calc(100% / 3 - 40px);
   margin: 0 20px;
@@ -158,6 +157,38 @@ header nav {
   font-weight: 600;
 }
 
+hr {
+  margin: 50px 10px;
+  color: #d3d3d3;
+}
+
+/* sezione a 2 colonne  */
+
+.left_side,
+.right_side {
+  float: left;
+  width: calc(100% / 2 - 40px);
+  margin: 0 20px;
+}
+.left_side img {
+  width: 100%;
+  height: 400px;
+}
+.right_side h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.right_side p,
+.right_side h2 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.right_side p {
+  line-height: 1.5rem;
+}
+.right_side a {
+  font-size: 15px;
+}
 /******************
  Footer-CSS 
  *****************/ ;
