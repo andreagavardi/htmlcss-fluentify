@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* utility rules  */
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bg_blue {
+  background-color: #0c325a;
+}
+/******************
+ Header-CSS 
+ *****************/
+header {
+  height: 550px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+header nav {
+  height: 60px;
+  line-height: 100%;
+}
+.logo,
+.left_menu,
+.right_menu {
+  float: left;
+}
+
+.logo {
+  width: 15%;
+  margin-top: 5px;
+}
+
+/******************
+ Main-CSS 
+ *****************/
+
+/******************
+ Footer-CSS 
+ *****************/
