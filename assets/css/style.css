@@ -191,4 +191,29 @@ hr {
 }
 /******************
  Footer-CSS 
- *****************/ ;
+ *****************/
+
+.col-2 {
+  float: left;
+  width: calc(100% / 2);
+  margin: 0 20px;
+}
+
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+.text-right {
+  text-align: right;
+}
+
+footer h2 {
+  font-size: 2rem;
+}
