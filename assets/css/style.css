@@ -196,7 +196,14 @@ hr {
 .col-2 {
   float: left;
   width: calc(100% / 2);
-  margin: 0 20px;
+  padding: 0 20px;
+}
+footer {
+  padding-top: 50px;
+  height: 200px;
+}
+footer h2 {
+  font-size: 2rem;
 }
 
 .help {
@@ -213,7 +220,11 @@ hr {
 .text-right {
   text-align: right;
 }
-
-footer h2 {
-  font-size: 2rem;
+.col-2 form {
+  display: inline-block;
+}
+.col-2 .btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
 }
